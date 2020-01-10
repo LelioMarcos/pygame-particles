@@ -15,5 +15,5 @@ A particle system made with Python using Pygame Library
 ## Requirements
 <ul>
   <li><a href="https://www.python.org/">Python</a></li>
-  <li><a href="https://www.pygame.org/wiki/GettingStarted">Pygame Library</a></li>
+  <li><a href="https://www.pygame.org/wiki/GettingStarted">Pygame</a></li>
 </ul>
