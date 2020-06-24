@@ -23,13 +23,13 @@ class Partcle(pygame.sprite.Sprite):
         self.hsp = hsp
         self.grav = grav
 
-        self.images = [pygame.image.load("img/part1.png"),
-                       pygame.image.load("img/part2.png"),
-                       pygame.image.load("img/part3.png"),
-                       pygame.image.load("img/part4.png"),
-                       pygame.image.load("img/part5.png"),
-                       pygame.image.load("img/part6.png"),
-                       pygame.image.load("img/part7.png")]
+        self.images = [pygame.image.load("img/part1.png").convert_alpha(),
+                       pygame.image.load("img/part2.png").convert_alpha(),
+                       pygame.image.load("img/part3.png").convert_alpha(),
+                       pygame.image.load("img/part4.png").convert_alpha(),
+                       pygame.image.load("img/part5.png").convert_alpha(),
+                       pygame.image.load("img/part6.png").convert_alpha(),
+                       pygame.image.load("img/part7.png").convert_alpha()]
 
         self.curImg = 0
         self.image = self.images[0]
