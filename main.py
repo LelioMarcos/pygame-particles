@@ -54,12 +54,9 @@ class Partcle(pygame.sprite.Sprite):
 
 def add(var,ad,lim):
     var += ad
-    if lim > 0:
-        if var >= lim:
-            var = lim
-    elif lim <= 0:
-        if var <= lim:
-            var = lim
+        
+    if lim > 0 and var >= lim or lim <= 0 and var <= lim:
+        var = lim
 
     return var
 
